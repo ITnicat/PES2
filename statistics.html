@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="statistics.css">
+	<title>Statistika</title>
+</head>
+<body>
+	<header>
+		<img src="logo.png" style="width: 150px; height: 150px; float: right; margin-right: 270px;">
+		<div id="headerText">
+			<h1>Məşqçi Statistikaları</h1>
+		</div>
+	</header>
+	<div id="sideBar">
+		<div class="menuButton" onclick="openMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li>Menu</li>
+			<li><a href="index.html">Əsas Səhifə</a></li>
+			<li><a href="statistics.html">Məşqçi Statistikası</a></li>
+			<li><a href="dc.html">Dünya Çempionatı</a></li>
+			<li><a href="cl.html">Çempionlar Ligası</a></li>
+			<li><a href="lig.html">Lig</a></li>
+		</ul>
+	</div>
+	<div id="statContainer">
+		<div id="coach1">
+			<img src="Nicat.jpeg" style="width: 200px; height: 200px;">
+			<div class="stat1">1. Nicat Yusifov <br> 
+			<img src="trophy.png" style="margin-top: 10px; width: 30px; height: 30px;">x6 Dünya Çempionatı	<br>
+			<img src="trophy2.png" style="margin-top: 10px; width: 30px; height: 30px;">x1 Çempionlar Ligası	<br>
+			<img src="trophy3.png" style="margin-top: 10px; width: 30px; height: 30px;">x1 Lig
+			</div>
+		</div>
+		<div id="coach2">
+			<img src="ayxan.png" style="width: 200px; height: 200px; position: relative; top: -130px;">
+			<div class="stat2">2. Ayxan Elxanlı <br> 
+			<img src="trophy.png" style="margin-top: 10px; width: 30px; height: 30px;">x4 Dünya Çempionatı	<br>
+			<img src="trophy2.png" style="margin-top: 10px; width: 30px; height: 30px;">x0 Çempionlar Ligası	<br>
+			<img src="trophy3.png" style="margin-top: 10px; width: 30px; height: 30px;">x2 Lig
+			</div>
+		</div>
+		<div id="coach3">
+			<img src="sulo.png" style="width: 200px; height: 200px; position: relative; top: -280px;">
+			<div class="stat3">3. Süleyman Zalov <br> 
+			<img src="trophy.png" style="margin-top: 10px; width: 30px; height: 30px;">x2 Dünya Çempionatı	<br>
+			<img src="trophy2.png" style="margin-top: 10px; width: 30px; height: 30px;">x1 Çempionlar Ligası	<br>
+			<img src="trophy3.png" style="margin-top: 10px; width: 30px; height: 30px;">x0 Lig
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		function openMenu() {
+			document.getElementById("sideBar").classList.toggle("active");
+		}
+
+		
+	</script>
+</body>
+</html>
